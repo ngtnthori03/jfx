@@ -1,0 +1,26 @@
+
+
+* JavaFX learning
+
+** dependencies
+
+- JDK (sdkman)
+  gradle 8.x
+
+
+** gradle build file
+
+#+begins_src kotlin
+
+plugins {
+    ...
+    id("org.openjfx.javafxplugin") version "0.1.0"
+}
+
+javafx {
+    ...
+    modules("javafx.controls", "javafx.fxml"
+    "javafx.swing", "javafx.web")
+}
+
+#+end_src
