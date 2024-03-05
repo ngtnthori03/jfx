@@ -2,12 +2,12 @@
 * havafx draft apps
 
 * Note
-- using java modula to build javafx apps
+- using [[https://www.oracle.com/corporate/features/understanding-java-9-modules.html][java module]] to build javafx apps
 
 ** dependencies
 
 - JDK (sdkman)
-  gradle 8.x (sdkman)
+- gradle 8.x (sdkman)
 
 
 ** gradle build file
