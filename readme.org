@@ -12,15 +12,21 @@
 
 ** gradle build file
 
+- plugins scope
 #+begin_src kotlin
 
-plugins scopse
+id("org.openjfx.javafxplugin") version "0.1.0"
 
-    id("org.openjfx.javafxplugin") version "0.1.0"
+#+end_src
 
-javafx scopse
+-javafx scope
+#+begin_src
 
-    modules("javafx.controls", "javafx.fxml"
-    "javafx.swing", "javafx.web")
+modules(
+    "javafx.controls",
+    "javafx.fxml",
+    "javafx.swing",
+    "javafx.media*
+)
 
 #+end_src
