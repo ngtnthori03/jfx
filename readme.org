@@ -19,7 +19,7 @@ id("org.openjfx.javafxplugin") version "0.1.0"
 
 #+end_src
 
--javafx scope
+- javafx scope
 #+begin_src
 
 modules(
