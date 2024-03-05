@@ -12,7 +12,7 @@
 
 ** gradle build file
 
-#+begins_src kotlin
+#+begin_src kotlin
 
 plugins scopse
 
