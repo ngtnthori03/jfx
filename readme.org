@@ -1,26 +1,26 @@
 
+* havafx draft apps
 
-* JavaFX learning
+* Note
+- using java modula to build javafx apps
 
 ** dependencies
 
 - JDK (sdkman)
-  gradle 8.x
+  gradle 8.x (sdkman)
 
 
 ** gradle build file
 
 #+begins_src kotlin
 
-plugins {
-    ...
-    id("org.openjfx.javafxplugin") version "0.1.0"
-}
+plugins scopse
 
-javafx {
-    ...
+    id("org.openjfx.javafxplugin") version "0.1.0"
+
+javafx scopse
+
     modules("javafx.controls", "javafx.fxml"
     "javafx.swing", "javafx.web")
-}
 
 #+end_src
