@@ -2,6 +2,10 @@
 
 /**/*.out
 
+# ignore emacs cache files
+/**/*~
+/**/#*#
+
 /**/*build
 /**/target
 /**/targets
