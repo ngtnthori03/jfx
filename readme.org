@@ -6,8 +6,8 @@
 
 ** dependencies
 
-- JDK (sdkman)
-- gradle 8.x (sdkman)
+- JDK 21.latest (sdkman)
+- gradle 8.latest (sdkman)
 
 
 ** gradle build file
